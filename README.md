@@ -1,4 +1,4 @@
-A simple Express.js + MongoDB project using Docker Compose. Includes Mongo Express as a web-based admin UI for MongoDB.
+A simple Express.js + MongoDB project using Docker Compose.
 
 ---
 
