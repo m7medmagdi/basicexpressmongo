@@ -1,6 +1,18 @@
 # VS Code settings
 .vscode/
 
-# Node.js dependencies
+# Node modules
 node_modules/
 
+# Logs
+logs
+*.log
+
+# dotenv files
+.env
+
+# Docker volumes (if mounted locally)
+mongodb_data/
+
+# OS files
+.DS_Store

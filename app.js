@@ -1,19 +1,19 @@
 const express = require('express')
-const mongose = require('mongoose')
+const mongoose = require('mongoose')
 const app = express()
 const taskRoutes = require('./routes/taskRoutes')
 
 const port = 3000;
 
 
-mongose.connect('mongodb://admin:admin@localhost:27017/todo?authSource=admin',{
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-    }
-)
+mongoose.connect(process.env.MONGO_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+})
+.then(() => console.log('Connected to MongoDB'))
+.catch((err) => console.error('Connection Error', err));
 
-
-const db = mongose.connection;
+const db = mongoose.connection;
 
 db.on('error',()=> {
     console.log("Connection Error")
