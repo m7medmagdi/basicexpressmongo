@@ -13,44 +13,16 @@ A simple Express.js + MongoDB project using Docker Compose. Includes Mongo Expre
 ---
 
 
-## 🐳 Docker Setup
+## 🐳 Docker Start
 
-### 📦 Start Containers
 
 ```bash
 docker compose up -d
-<<<<<<< HEAD
+
 ```
-MongoDB: localhost:27017
 
-=======
-
-MongoDB: localhost:27017
-
->>>>>>> 30cdd62 (Initial commit with Dockerized Express + Mongo app)
-Mongo Express: http://localhost:8085
-
-Default MongoDB credentials:
-
-Username: admin
-
-Password: admin
-
-<<<<<<< HEAD
-Create Schema todo
-
-
-### Start App
-```bash
-npm start dev
-```
 
 
 ✍️ Author
 Mohamed Magdy
-=======
 
-✍️ Author
-Mohamed Magdy
-
->>>>>>> 30cdd62 (Initial commit with Dockerized Express + Mongo app)
