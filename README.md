@@ -1,9 +1,3 @@
-# 1. Navigate to your project folder
-cd /path/to/your/project
-
-# 2. Create README.md with the content
-cat > README.md << 'EOF'
-# testecma
 
 A simple Express.js + MongoDB project using Docker Compose. Includes Mongo Express as a web-based admin UI for MongoDB.
 
