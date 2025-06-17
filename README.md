@@ -6,7 +6,6 @@ A simple Express.js + MongoDB project using Docker Compose. Includes Mongo Expre
 
 - Node.js + Express server
 - MongoDB database via Docker
-- Mongo Express UI at `http://localhost:8085`
 - Hot reload with Nodemon
 - Mongoose ODM integration
 
